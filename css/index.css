@@ -1,0 +1,215 @@
+@charset 'utf-8';
+
+html{
+    background:#f1f1f1;
+}
+
+/****************************
+          主体部分
+*****************************/
+.main{
+    width:520px;
+    margin:50px auto;
+}
+/******** banner1部分 ********/
+.main .banner1{
+    position:relative;
+    width:100%;
+    height:280px;
+    overflow:hidden;
+}
+.main .banner1 .picList{
+    position:absolute;
+    top:0;
+    left:0;
+    width:2600px;
+    height:100%;
+    user-select:none;
+}
+.main .banner1 .picList li{
+    float:left;
+    width:520px;
+    height:100%;
+}
+.main .banner1 .tab,.main .banner2 .tab{
+    position:absolute;
+    left:50%;
+    bottom:10px;
+    margin-left:-40px;
+    width:70px;
+    padding:2px 5px;
+    padding-left:0;
+    background:rgba(255,255,255,.8);
+    border-radius:20px;
+}
+.main .banner1 .tab i,.main .banner2 .tab i{
+    float:left;
+    width:9px;
+    height:9px;
+    margin-left:5px;
+    background-color:#b7b7b7;
+    border-radius:50%;
+    cursor:pointer;
+}
+.main .banner1 .tab i.on,.main .banner2 .tab i.on{
+    background:#f40;
+}
+.main .banner1 .btnList,.main .banner2 .btnList{
+    position:absolute;
+    top:50%;
+    margin-top:-15.5px;
+    width:100%;
+    height:36px;
+}
+.main .banner1 .btnList .btn,.main .banner2 .btnList .btn{
+    width:24px;
+    height:100%;
+    background:rgba(0,0,0,.3);
+    color:#fff;
+    text-align:center;
+    line-height:36px;
+    cursor:pointer;
+    transition:.5s;
+    user-select:none;
+}
+.main .banner1 .btnList .btn:hover,.main .banner2 .btnList .btn:hover{
+    background:rgba(0,0,0,.5);
+}
+.main .banner1 .btnList .btnLeft,.main .banner2 .btnList .btnLeft{
+    float:left;
+}
+.main .banner1 .btnList .btnRight,.main .banner2 .btnList .btnRight{
+    float:right;
+}
+/******** banner2部分 ********/
+.main .banner2{
+    position:relative;
+    width:520px;
+    height:220px;
+    margin-top:11px;
+    user-select:none;
+    overflow:hidden;
+}
+.main .banner2 .header{
+    width:100%;
+    height:17px;
+    border-bottom:2px solid #c12c26;
+}
+.main .banner2 .header img,h2,p{
+    float:left;
+    line-height:18px;
+}
+.main .banner2 .header img{
+    margin-left:-4px;
+}
+.main .banner2 .header h2{
+    margin-right:8px;
+    font-size:14px;
+    color:#3c3c3c;
+}
+.main .banner2 .header p{
+    color:#666;
+}
+.main .banner2 .header span{
+    float:right;
+    line-height:18px;
+}
+.main .banner2 .header span i{
+    font-style:normal;
+    color:#c12c26;
+}
+.main .banner2 .piclist{
+    position:absolute;
+    top:19px;
+    left:0;
+    width:3120px;
+    height:202px;
+}
+.main .banner2 .piclist li{
+    float:left;
+    width:520px;
+    height:100%;
+}
+.main .banner2 .piclist .item1 img{
+    float:left;
+}
+.main .banner2 .piclist .item1 img.huanxin{
+    width:172px;
+    height:100%;
+    border-right:1px solid #eee;
+}
+.main .banner2 .piclist .item1 img.auto{
+    width:172px;
+    height:100px;
+}
+.main .banner2 .piclist .item1 img.biqiang{
+    border:1px solid #eee;
+    border-style:none solid solid none;
+}
+.main .banner2 .piclist .item1 img.phone{
+    width:173px;
+    border-bottom:1px solid #eee;
+}
+.main .banner2 .piclist .item1 img.watch{
+    border-right:1px solid #eee;
+}
+.main .banner2 .piclist .item1 img.food{
+    width:173px;
+}
+.main .banner2 .piclist .item2{
+    background:#fff;
+}
+.main .banner2 .piclist .item2 .warp{
+    width:508px;
+    height:155px;
+    margin:25px auto;
+}
+.main .banner2 .piclist .item2 .warp .img1{
+    float:left;
+}
+.main .banner2 .piclist .item2 .warp .img2{
+    float:right;
+}
+.main .banner2 .piclist .item3 img,.main .banner2 .piclist .item4 img{
+    float:left;
+    width:129px;
+    border-right:1px solid #eee;
+}
+.main .banner2 .piclist .item3 img.none,.main .banner2 .piclist .item4 img.none{
+    border:none;
+}
+.main .banner2 .piclist .item5 div{
+    float:left;
+    width:129px;
+    height:67px;
+    background:#fff;
+    border-bottom:1px solid #eee;
+    border-right:1px solid #eee;
+}
+.main .banner2 .piclist .item5 div img{
+    display:block;
+    margin:15px auto;
+}
+.main .banner2 .piclist .item6{
+    background:#fff;
+}
+.main .banner2 .piclist .item6 div{
+    width:508px;
+    margin:6px auto;
+}
+.main .banner2 .piclist .item6 div img{
+    width:251px;
+    height:190px;
+}
+.main .banner2 .piclist .item6 div img:nth-child(1){
+    float:left;
+}
+.main .banner2 .piclist .item6 div img:nth-child(2){
+    float:right;
+}
+.main .banner2 .tab{
+    width:84px;
+}
+.main .banner2 .btnList{
+    margin-top:-3.5px;
+}
